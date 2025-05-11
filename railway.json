@@ -1,0 +1,13 @@
+{
+    "build": {
+        "command": "pip install -r requirements.txt"
+    },
+    "deploy": {
+        "startCommand": "python eitaa_invite_bot_with_token.py"
+    },
+    "services": [
+        {
+            "type": "worker"
+        }
+    ]
+}
